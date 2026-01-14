@@ -17,7 +17,6 @@ warnings.filterwarnings('ignore')
 # Page configuration
 st.set_page_config(
     page_title="Spam Classification App",
-    page_icon="📧",
     layout="wide"
 )
 
@@ -110,7 +109,7 @@ def main():
     """Main application function"""
 
     # Header
-    st.markdown('<p class="main-header">📧 Spam Email Classification System</p>',
+    st.markdown('<p class="main-header">Spam Email Classification System</p>',
                 unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Machine Learning Assignment 2 - Interactive Model Evaluation</p>',
                 unsafe_allow_html=True)
@@ -144,7 +143,7 @@ def main():
     )
 
     # Main content area
-    tab1, tab2, tab3, tab4 = st.tabs(["📊 Model Performance", "🔮 Make Predictions", "📈 Model Comparison", "ℹ️ Dataset Info"])
+    tab1, tab2, tab3, tab4 = st.tabs(["Model Performance", "Make Predictions", "Model Comparison", "Dataset Info"])
 
     # Tab 1: Model Performance
     with tab1:

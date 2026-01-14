@@ -313,13 +313,13 @@ word_freq_make,word_freq_address,...,capital_run_length_total,label
 
 The project successfully demonstrates:
 
-- ✅ Implementation of 6 diverse classification algorithms
-- ✅ Comprehensive evaluation using 6 different metrics
-- ✅ Interactive web application with all required features
-- ✅ Model comparison and visualization capabilities
-- ✅ Cloud deployment on Streamlit Community Cloud
-- ✅ Clean, well-documented codebase
-- ✅ Production-ready machine learning pipeline
+- Implementation of 6 diverse classification algorithms
+- Comprehensive evaluation using 6 different metrics
+- Interactive web application with all required features
+- Model comparison and visualization capabilities
+- Cloud deployment on Streamlit Community Cloud
+- Clean, well-documented codebase
+- Production-ready machine learning pipeline
 
 **Best Model:** XGBoost with 94.57% accuracy and 0.9860 AUC score
 
