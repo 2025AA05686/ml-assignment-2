@@ -3,6 +3,8 @@
 ## Machine Learning Assignment 2
 **M.Tech (AIML/DSE) - BITS Pilani**
 
+**Live App:** https://2025aa05686-spam-detector.streamlit.app/
+
 ---
 
 ## Problem Statement
@@ -186,8 +188,11 @@ To test:
 
 ## Deployment
 
-The application is deployed on Streamlit Community Cloud:
+The application is deployed on Streamlit Community Cloud.
 
+**Live Application:** https://2025aa05686-spam-detector.streamlit.app/
+
+**Deployment Steps:**
 1. Push code to GitHub
 2. Go to https://streamlit.io/cloud
 3. Sign in with GitHub account
