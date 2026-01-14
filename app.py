@@ -50,7 +50,7 @@ def load_model(model_name):
 
 def plot_confusion_matrix(cm, model_name):
     """Create confusion matrix heatmap"""
-    fig, ax = plt.subplots(figsize=(6, 5))
+    fig, ax = plt.subplots(figsize=(5, 4))
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', ax=ax,
                 xticklabels=['Not Spam', 'Spam'],
                 yticklabels=['Not Spam', 'Spam'])
@@ -68,10 +68,10 @@ def main():
 
     st.markdown("---")
 
-    # Sidebar for model selection
-    st.sidebar.header("Select Model")
-    model_name = st.sidebar.selectbox(
-        "Choose a classification model:",
+    # Model selection in main area (more visible)
+    st.subheader("Select Classification Model")
+    model_name = st.selectbox(
+        "Choose a model:",
         (
             "Logistic Regression",
             "Decision Tree",
@@ -81,6 +81,8 @@ def main():
             "XGBoost"
         )
     )
+
+    st.markdown("---")
 
     # Main tabs
     tab1, tab2, tab3 = st.tabs(["Model Performance", "Make Predictions", "Model Comparison"])
