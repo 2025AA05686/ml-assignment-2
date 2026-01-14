@@ -141,6 +141,8 @@ def main():
         st.write("Upload a CSV file with test data to make predictions.")
         st.write("The CSV should have the same 56 features as the training data.")
 
+        st.info("**For testing:** A sample test file is available at `data/test_data.csv` (10 samples)")
+
         uploaded_file = st.file_uploader("Upload Test Dataset (CSV)", type=["csv"])
 
         if uploaded_file is not None:
