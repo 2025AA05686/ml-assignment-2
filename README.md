@@ -1,6 +1,8 @@
 # Spam Email Classification System
 
 ## Machine Learning Assignment 2
+**Name:** Pritish Joshi
+**ID:** 2025AA05686
 **M.Tech (AIML) - BITS Pilani**
 
 **Live App:** https://2025aa05686-spam-detector.streamlit.app/
