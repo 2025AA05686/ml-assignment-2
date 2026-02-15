@@ -233,4 +233,4 @@ Machine Learning - Assignment 2
 
 ---
 
-**Last Updated:** January 2026
+**Last Updated:** February 2026
