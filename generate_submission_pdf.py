@@ -261,7 +261,7 @@ def create_submission_pdf():
     pdf.add_bullet("XGBoost achieves best balance across all metrics")
     
     # Save PDF
-    output_path = "ML_Assignment_2_Submission.pdf"
+    output_path = "22025AA05686_ml_assignment_2.pdf"
     pdf.output(output_path)
     print(f"PDF generated successfully: {output_path}")
     return output_path
