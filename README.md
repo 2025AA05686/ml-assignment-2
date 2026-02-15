@@ -73,8 +73,8 @@ Six classification algorithms were implemented and evaluated:
 | Decision Tree | 0.9088 | 0.9064 | 0.8760 | 0.8953 | 0.8856 | 0.8099 |
 | K-Nearest Neighbors | 0.9077 | 0.9538 | 0.8861 | 0.8788 | 0.8824 | 0.8065 |
 | Naive Bayes | 0.8328 | 0.9374 | 0.7146 | 0.9587 | 0.8188 | 0.6946 |
-| Random Forest | 0.9435 | 0.9844 | 0.9430 | 0.9118 | 0.9272 | 0.8814 |
-| XGBoost | 0.9457 | 0.9860 | 0.9311 | 0.9311 | 0.9311 | 0.8863 |
+| Random Forest (Ensemble) | 0.9435 | 0.9844 | 0.9430 | 0.9118 | 0.9272 | 0.8814 |
+| XGBoost (Ensemble) | 0.9457 | 0.9860 | 0.9311 | 0.9311 | 0.9311 | 0.8863 |
 
 ### Model Performance Observations
 
@@ -84,8 +84,8 @@ Six classification algorithms were implemented and evaluated:
 | Decision Tree | Achieves good accuracy (90.88%) but shows slightly lower performance compared to ensemble methods. Has the lowest AUC score (0.9064) among all models. Maintains reasonable precision (0.8760) and recall (0.8953). The simpler tree structure may lead to some overfitting on training data. Excels in interpretability which helps understand decision boundaries. |
 | K-Nearest Neighbors | Delivers competitive performance with 90.77% accuracy. Shows strong AUC (0.9538) indicating good ranking ability. Balanced precision (0.8861) and recall (0.8788) suggest consistent performance across both classes. Computationally expensive during prediction as it requires distance calculations. Performance is dependent on the choice of k (k=5 used here). |
 | Naive Bayes | Shows the lowest overall accuracy (83.28%) but exhibits the highest recall (0.9587), making it excellent at catching spam emails with minimal false negatives. The trade-off is lower precision (0.7146), resulting in more false positives. This model is useful when missing spam is more costly than incorrectly flagging legitimate emails. Extremely fast and works well with high-dimensional data. |
-| Random Forest | Demonstrates excellent performance with 94.35% accuracy, ranking second overall. The ensemble approach significantly improves upon the single Decision Tree. Outstanding AUC (0.9844) and precision (0.9430) indicate superior ability to correctly identify spam while minimizing false alarms. Strong recall (0.9118) and F1 score (0.9272) show balanced performance. High MCC (0.8814) confirms robust correlation. |
-| XGBoost | Best performing model overall with highest accuracy (94.57%), AUC (0.9860), and MCC (0.8863). Achieves perfect balance with equal precision and recall (0.9311), resulting in the highest F1 score (0.9311). The gradient boosting algorithm iteratively corrects errors, leading to superior predictive performance. Excellent generalization with minimal overfitting. Recommended as the primary model for spam detection. |
+| Random Forest (Ensemble) | Demonstrates excellent performance with 94.35% accuracy, ranking second overall. The ensemble approach significantly improves upon the single Decision Tree. Outstanding AUC (0.9844) and precision (0.9430) indicate superior ability to correctly identify spam while minimizing false alarms. Strong recall (0.9118) and F1 score (0.9272) show balanced performance. High MCC (0.8814) confirms robust correlation. |
+| XGBoost (Ensemble) | Best performing model overall with highest accuracy (94.57%), AUC (0.9860), and MCC (0.8863). Achieves perfect balance with equal precision and recall (0.9311), resulting in the highest F1 score (0.9311). The gradient boosting algorithm iteratively corrects errors, leading to superior predictive performance. Excellent generalization with minimal overfitting. Recommended as the primary model for spam detection. |
 
 ---
 
