@@ -15,8 +15,11 @@ class SubmissionPDF(FPDF):
     def header_section(self):
         self.set_font('Helvetica', 'B', 18)
         self.cell(0, 12, 'Machine Learning Assignment 2', ln=True, align='C')
+        self.set_font('Helvetica', 'B', 11)
+        self.cell(0, 8, 'Name: Pritish Joshi', ln=True, align='C')
+        self.cell(0, 8, 'ID: 2025AA05686', ln=True, align='C')
         self.set_font('Helvetica', '', 12)
-        self.cell(0, 8, 'M.Tech (AIML/DSE) - BITS Pilani', ln=True, align='C')
+        self.cell(0, 8, 'M.Tech (AIML) - BITS Pilani', ln=True, align='C')
         self.cell(0, 8, 'Spam Email Classification System', ln=True, align='C')
         self.ln(5)
         self.line(10, self.get_y(), 200, self.get_y())
