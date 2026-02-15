@@ -218,8 +218,10 @@ The application is deployed on Streamlit Community Cloud.
 
 ## Author
 
-BITS Pilani Student
-M.Tech (AIML/DSE)
+**Pritish Joshi**
+**ID:** 2025AA05686
+M.Tech (AIML)
+BITS Pilani
 Machine Learning - Assignment 2
 
 ---
