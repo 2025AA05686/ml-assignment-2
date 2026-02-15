@@ -1,7 +1,7 @@
 # Spam Email Classification System
 
 ## Machine Learning Assignment 2
-**M.Tech (AIML/DSE) - BITS Pilani**
+**M.Tech (AIML) - BITS Pilani**
 
 **Live App:** https://2025aa05686-spam-detector.streamlit.app/
 
